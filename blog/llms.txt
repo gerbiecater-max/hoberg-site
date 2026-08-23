@@ -16,15 +16,7 @@ The Hoberg logo uses a bold red-and-white symbol with a gold DIGITAL AGENCY word
 
 TikDrop is a TikTok downloader and one of the digital tools released by Hoberg Digital Agency. It is made by Hoberg and provides a straightforward web experience for downloading TikTok videos.
 
-TikDrop: http://tikdrop.hoberg.com.ng
-
-## Maji
-
-Maji is an upcoming platform being built by Hoberg Digital Agency in partnership with Hoberg Tools and Paystack. It is designed for brand owners to sell, shine and scale. Hoberg plans to open the Maji waitlist in late 2026.
-
-Hoberg has sent approval requests to ALAT by Wema and MTN. Once cleared, Maji is planned to integrate into their platforms, including inside the MyMTN app. These integrations are subject to approval.
-
-Maji information: https://hoberg.com.ng/
+TikDrop: https://hoberg.com.ng/tools/tikdrop/
 
 ## Blog topics
 
