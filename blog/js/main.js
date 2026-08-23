@@ -35,11 +35,12 @@ document.addEventListener('DOMContentLoaded', function () {
     searchableCards.forEach(function (card) {
       var haystack = (card.getAttribute('data-title') + ' ' + card.getAttribute('data-keywords')).toLowerCase();
       var match = term === '' || haystack.indexOf(term) !== -1;
-      card.style.display = match ? '' : 'none';
+      card.classList.toggle('is-hidden', !match);
       if (match) anyVisible = true;
     });
     if (searchEmpty) {
-      searchEmpty.style.display = (!anyVisible && term !== '') ? 'block' : 'none';
+      searchEmpty.classList.toggle('is-visible', !anyVisible && term !== '');
+      searchEmpty.classList.toggle('is-hidden', anyVisible || term === '');
     }
   }
 
@@ -64,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (searchInput) searchInput.value = '';
       searchableCards.forEach(function (card) {
         var match = cat === 'all' || card.getAttribute('data-category') === cat;
-        card.style.display = match ? '' : 'none';
+        card.classList.toggle('is-hidden', !match);
       });
       var targetSection = document.getElementById('latest');
       if (targetSection) targetSection.scrollIntoView({ behavior: 'smooth' });
@@ -82,17 +83,14 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.faq-item.open').forEach(function (openItem) {
         if (openItem !== item) {
           openItem.classList.remove('open');
-          openItem.querySelector('.faq-answer').style.maxHeight = null;
           openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
         }
       });
       if (isOpen) {
         item.classList.remove('open');
-        answer.style.maxHeight = null;
         question.setAttribute('aria-expanded', 'false');
       } else {
         item.classList.add('open');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
         question.setAttribute('aria-expanded', 'true');
       }
     });
@@ -106,8 +104,8 @@ document.addEventListener('DOMContentLoaded', function () {
       var successMsg = newsletterForm.parentElement.querySelector('.newsletter-success');
       var emailInput = newsletterForm.querySelector('input[type="email"]');
       if (emailInput && emailInput.value) {
-        newsletterForm.style.display = 'none';
-        if (successMsg) successMsg.style.display = 'block';
+        newsletterForm.classList.add('is-hidden');
+        if (successMsg) successMsg.classList.add('is-visible');
       }
     });
   }
@@ -122,11 +120,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          tocLinks.forEach(function (l) { l.style.color = ''; l.style.fontWeight = ''; });
+          tocLinks.forEach(function (l) { l.classList.remove('is-active'); });
           var activeLink = document.querySelector('.toc-box a[href="#' + entry.target.id + '"]');
           if (activeLink) {
-            activeLink.style.color = '#C8001A';
-            activeLink.style.fontWeight = '700';
+            activeLink.classList.add('is-active');
           }
         }
       });

@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /tools/
-Allow: /tools/tikdrop/
-
-Sitemap: https://hoberg.com.ng/sitemap.xml
