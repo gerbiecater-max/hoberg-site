@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">TikDrop free TikTok downloader</title>
+  <desc id="desc">TikDrop is a free TikTok video downloader powered by Hoberg Digital Agency.</desc>
+  <rect width="1200" height="630" fill="#080808"/>
+  <path d="M0 0h1200v630H0z" fill="url(#grid)" opacity=".28"/>
+  <path d="M860 0h340v630H860z" fill="#c8001a"/>
+  <path d="M0 630 430 0h175L175 630z" fill="#d4a843" opacity=".9"/>
+  <defs><pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0v34" fill="none" stroke="#fff" stroke-opacity=".15"/></pattern></defs>
+  <rect x="86" y="102" width="150" height="150" rx="32" fill="#000" stroke="#fff" stroke-width="5"/>
+  <path d="M161 125v67" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
+  <path d="m132 169 29 29 29-29" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M117 220h88" stroke="#c8001a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="218" cy="125" r="10" fill="#d4a843"/>
+  <text x="86" y="370" fill="#fff" font-family="Georgia,serif" font-size="82" font-weight="700">TikDrop</text>
+  <text x="90" y="430" fill="#f1f1f1" font-family="Arial,sans-serif" font-size="30">Download TikTok videos without watermarks</text>
+  <text x="90" y="485" fill="#d4a843" font-family="Arial,sans-serif" font-size="26" font-weight="700">FREE  •  HD MP4  •  NO WATERMARK</text>
+  <text x="1030" y="250" fill="#fff" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">POWERED BY</text>
+  <text x="1030" y="300" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle">HOBERG</text>
+  <text x="1030" y="338" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle">DIGITAL AGENCY</text>
+  <path d="M960 410h140" stroke="#fff" stroke-width="4" stroke-linecap="round"/><circle cx="930" cy="410" r="7" fill="#d4a843"/>
+</svg>
