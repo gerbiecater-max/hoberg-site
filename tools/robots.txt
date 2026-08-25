@@ -1,0 +1,40 @@
+# ===================================================
+# robots.txt — Hoberg Tools / Hoberg Digital Agency
+# Site: https://hoberg.com.ng/tools/
+# Agency: https://hoberg.com.ng
+# ===================================================
+
+# Allow all crawlers — all pages are public and indexable
+User-agent: *
+Allow: /
+
+# Allow specific Hoberg tool paths
+Allow: /tools/
+Allow: /tools/index.html
+
+# ===================================================
+# AI Crawlers — allow full access for AI indexing
+# ===================================================
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ===================================================
+# Sitemaps — submit to all major search engines
+# ===================================================
+Sitemap: https://hoberg.com.ng/tools/sitemap.xml
+Sitemap: https://hoberg.com.ng/sitemap.xml

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Hoberg Digital Agency — main agency site -->
+  <url>
+    <loc>https://hoberg.com.ng/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- Hoberg Tools — tools hub / index -->
+  <url>
+    <loc>https://hoberg.com.ng/tools/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- BGDrop — Free AI Image Background Remover -->
+  <url>
+    <loc>https://bgdrop.hoberg.com.ng/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- TikDrop — Free TikTok Video Downloader (No Watermark) -->
+  <url>
+    <loc>https://tikdrop.hoberg.com.ng/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- FileDrop — Instant Peer-to-Peer File Transfer -->
+  <url>
+    <loc>https://filedrop.hoberg.com.ng/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- Maji — Everyday Marketplace (Beta) -->
+  <url>
+    <loc>https://maji.hoberg.com.ng/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+  <!-- Healthne — Healthcare Access Platform (Beta) -->
+  <url>
+    <loc>https://healthnehome.hoberg.com.ng/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+
+</urlset>
