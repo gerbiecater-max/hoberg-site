@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Hoberg Tools favicon">
+  <title>Hoberg Tools</title>
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8001C"/>
+      <stop offset="100%" style="stop-color:#A0000F"/>
+    </linearGradient>
+  </defs>
+  <!-- Square background -->
+  <rect width="32" height="32" rx="7" fill="#0E0B08"/>
+  <!-- Drop mark -->
+  <path d="M16 3 C16 3, 27 13, 27 20 C27 26, 22 30, 16 30 C10 30, 5 26, 5 20 C5 13, 16 3, 16 3 Z" fill="url(#fg)"/>
+  <!-- Play triangle inside -->
+  <path d="M13 15 L22 20 L13 25 Z" fill="#0E0B08" opacity="0.85"/>
+</svg>

@@ -1,0 +1,109 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Hoberg Tools — Free Web Utilities by Hoberg Digital Agency">
+  <title>Hoberg Tools — Free Web Utilities by Hoberg Digital Agency</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0B08"/>
+      <stop offset="100%" style="stop-color:#1a0003"/>
+    </linearGradient>
+    <linearGradient id="dropG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8001C"/>
+      <stop offset="100%" style="stop-color:#A0000F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="45%" r="35%">
+      <stop offset="0%" style="stop-color:#C8001A;stop-opacity:0.45"/>
+      <stop offset="100%" style="stop-color:#C8001A;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropGlow">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Red glow radial in top-right -->
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Grid lines (subtle) -->
+  <g stroke="rgba(255,255,255,0.025)" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+  </g>
+
+  <!-- Left border accent line -->
+  <rect x="64" y="80" width="3" height="470" fill="#C8001A" rx="1.5"/>
+
+  <!-- ===== CONTENT ===== -->
+
+  <!-- Eyebrow label -->
+  <rect x="88" y="88" width="260" height="30" rx="15" fill="rgba(200,0,26,0.15)" stroke="rgba(200,0,26,0.4)" stroke-width="1"/>
+  <text x="218" y="109" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#E8001C" text-anchor="middle">HOBERG DIGITAL AGENCY</text>
+
+  <!-- Main title -->
+  <text x="88" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#FFFFFF" letter-spacing="-2">Hoberg</text>
+  <text x="88" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#E8001C" letter-spacing="-2">Tools.</text>
+
+  <!-- Subtitle -->
+  <text x="88" y="356" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="rgba(255,255,255,0.65)">Free web utilities — no sign-up, no fees.</text>
+
+  <!-- Tool badges row -->
+  <!-- BGDrop -->
+  <rect x="88" y="390" width="110" height="34" rx="17" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="143" y="413" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">🖼️ BGDrop</text>
+
+  <!-- TikDrop -->
+  <rect x="210" y="390" width="120" height="34" rx="17" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="270" y="413" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">🎵 TikDrop</text>
+
+  <!-- FileDrop -->
+  <rect x="342" y="390" width="120" height="34" rx="17" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="402" y="413" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">📁 FileDrop</text>
+
+  <!-- Maji -->
+  <rect x="474" y="390" width="86" height="34" rx="17" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="517" y="413" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">🛒 Maji</text>
+
+  <!-- Healthne -->
+  <rect x="572" y="390" width="118" height="34" rx="17" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="631" y="413" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">🏥 Healthne</text>
+
+  <!-- hoberg.com.ng URL at bottom -->
+  <text x="88" y="520" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1" fill="#D4A843">hoberg.com.ng/tools</text>
+
+  <!-- ===== LARGE DROP ICON (right side) ===== -->
+  <g filter="url(#dropGlow)" transform="translate(800, 80)">
+    <!-- Outer glow circle -->
+    <circle cx="190" cy="260" r="200" fill="rgba(200,0,26,0.06)"/>
+    <!-- Main drop shape -->
+    <path d="M190 40 C190 40, 330 160, 330 250 C330 330, 268 380, 190 380 C112 380, 50 330, 50 250 C50 160, 190 40, 190 40 Z" fill="url(#dropG)"/>
+    <!-- Play arrow inside -->
+    <path d="M156 210 L256 262 L156 314 Z" fill="#0E0B08" opacity="0.85"/>
+    <!-- Gold underline bar -->
+    <rect x="50" y="396" width="280" height="6" fill="#D4A843" rx="3"/>
+  </g>
+
+  <!-- Bottom separator line -->
+  <rect x="64" y="560" width="1072" height="1" fill="rgba(255,255,255,0.07)"/>
+
+  <!-- Bottom bar: powered by text -->
+  <text x="88" y="595" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="rgba(255,255,255,0.4)">Built and maintained by Hoberg Digital Agency · Nigeria</text>
+  <text x="1136" y="595" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="rgba(255,255,255,0.4)" text-anchor="end">© 2026</text>
+</svg>
