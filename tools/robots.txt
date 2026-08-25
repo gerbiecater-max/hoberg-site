@@ -38,3 +38,4 @@ Allow: /
 # ===================================================
 Sitemap: https://hoberg.com.ng/tools/sitemap.xml
 Sitemap: https://hoberg.com.ng/sitemap.xml
+Sitemap: https://imgdrop.hoberg.com.ng/sitemap.xml
