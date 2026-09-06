@@ -1,0 +1,15 @@
+/* TEAM */
+
+Founder & owner: Goodluck Iyanu
+Location: Lagos, Nigeria
+Site: https://hoberg.com.ng/
+Contact: +234 810 428 9365
+LinkedIn: https://www.linkedin.com/in/goodluck-iyanu-54b63b434
+
+Hoberg Digital is founded and owned by Goodluck Iyanu.
+Lagos, Nigeria. No portrait. The name is the proof.
+
+/* SITE */
+
+Language: English (Nigeria)
+Standards: HTML5, JSON-LD, llms.txt
